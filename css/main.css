@@ -1,0 +1,567 @@
+
+html,
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    color: #333 !important;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+p,li{
+    font-size: 0.9375rem;
+    display: block;
+    line-height: 1.7;  
+    font-weight: 300;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.wrapper{
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 10px 0 20px 0;
+}
+
+/*-- Start Navigation bar--*/
+
+.navbar {
+  padding: 18px 0 !important;
+  background: transparent;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.navbar-brand{
+  width: 150px;
+}
+.navbar i{
+  font-size: 1.5rem;
+}
+
+.navbar button {
+  color: inherit !important;
+}
+
+.navbar.compressed {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #cccccc;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); 
+  opacity: .9 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    color: #666666 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #ff6600!important;
+  font-weight: 400 !important;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+
+}
+
+.navbar-light .navbar-nav .active{
+    color: #ff6600!important;
+}
+
+.navbar-light .navbar-nav .nav-item{
+    padding-right: 5px !important;
+}
+
+
+
+/*--banner image--*/
+#hero{
+    background: url('../img/sledge-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.hero-caption{
+    max-width: 60rem;
+    position: left;
+}
+.hero-caption h1{
+    color: #ff6600;
+    font-size: 2.5rem;
+    position: relative;
+    z-index: 3;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero-caption span{
+  color: #333 !important;
+}
+.hero-caption p{
+    position: relative;
+    z-index: 3;
+    margin: 10px;
+    max-width: 55rem;
+    font-size: 1.2rem;
+}
+
+#hero .btn-primary{
+  margin: 20px;
+  position: relative;
+  z-index: 3;
+  font-size: 1.3rem;
+  background: #ff6600 !important;
+  font-weight: 600;
+  border: none !important;
+  text-transform: uppercase;
+}
+
+.btn.btn-primary:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+/*---mvv--*/
+
+.mvv{
+  background-color: #333333;
+}
+
+.mvv .mvv-one{
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+}
+
+.mvv .col{
+  padding: 50px;
+}
+
+.mvv .col-md-4:hover{
+  background-color: rgba(128, 128, 128, .5);
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.mvv h3{
+  color: #ff6600;
+}
+
+.mvv i{
+  margin-left: 5px;
+}
+
+.mvv p{
+  color: #cccccc !important;
+}
+
+/*--about--*/
+
+.about{
+  padding: 130px 0;
+  background: #f2f2f2;
+}
+
+.heading-top h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about span{
+  color:#ff6600 ;
+}
+
+.wrapper{
+  padding: 0 10px 0 10px;
+}
+  
+.about-sledge{
+  padding: 40px 0;
+}
+
+.about-sledge h4{
+   text-align: justify;
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+.about-sledge p{
+  text-align: justify;
+}
+
+.about-sledge h4:after{
+ content:'';
+  display:block;
+  height: 0.3em;  
+  width: 100px;
+  border-bottom: 5px solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ff6600;
+ }
+
+/*--services--*/
+
+.services{
+  padding: 120px 0;
+}
+
+.services-top{
+  margin-top: 60px;
+}
+
+.services i{
+  font-size: 1rem;
+  color: #ff6600;
+  padding-right: 5px;
+}
+.services h3, li{
+  text-align: justify;
+}
+
+.services h3{
+  font-weight: 600; 
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  padding-top: 20px;
+  color: #ff6600;
+}
+
+.services img{
+  margin-right: 10px;
+  width: 80px;
+  
+}
+
+/*--break--*/
+
+.break{
+   position: relative;
+}
+
+.break-left{
+    background: url('../img/irrigation-system.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.break-right{
+    background: url('../img/deep-cleaning.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.break .overlay{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 102, 0, .6);
+    z-index: 2;
+}
+
+.break h3{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    position: relative;
+    z-index: 3;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+
+/*--products--*/
+
+.products{
+  padding: 120px 0;
+}
+/*--footer--*/
+
+.footer{
+  padding: 120px 0;
+  background-color: #333333;
+  color: #d9d9d9;
+}
+
+.footer h2{
+  color: #ff6600;
+ 
+}
+
+.footer i{
+  color: #ff6600;
+}
+.footer .box{
+  margin-left: 50px;
+}
+
+.footer h3{
+  font-weight: 700;
+  text-align: left;
+}
+
+.social li{
+  display: inline-block;
+}
+
+.social .left{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.social .right{
+  margin-right: 117px;
+}
+.social i{
+  font-size: 3rem;
+}
+
+.social img{
+  width: 40px;
+}
+
+/*--footer last--*/
+.last-footer {
+  background-color: #333333;
+  padding: 10px;
+  color: #808080;
+  border-top: 1px solid #595959;
+}
+
+.last-footer p{
+  padding-top: 6px;
+}
+
+.last-footer i{
+  color: #fff;
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 10px;
+  background: #ff6600;
+}
+
+.last-footer i:hover{
+  color: #ff6600;
+  background: #fff;
+  transition: all .5s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+      padding: 10px 0 !important;
+    }
+    .navbar-brand{
+      width: 100px;
+      margin-left: 20px;
+    }
+    
+    .navbar-collapse ul{
+      margin-left: 30px !important;
+    }
+    .hero-caption{
+        max-width: 90rem;
+        position: none;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .hero-caption h1{
+        font-size: 1.3rem;
+    }
+
+    .hero-caption p{
+        font-size: 0.8rem;
+    }
+
+    #hero .btn-primary{
+      font-size: 1.2rem;
+    }
+
+    /*--mission--*/
+    .mvv .mvv-one{
+      border-top: 1px solid grey;
+      border-bottom: 1px solid grey;
+    }
+
+    .mvv .col{
+      padding: 30px 0 30px 0;
+    }
+
+    .mvv h3{
+      font-size: 1.5rem;
+    }
+
+    .about{
+      padding: 70px 0;
+    }
+
+    .heading-top h2{
+      font-size: 1.3rem;
+    }
+
+    .wrapper{
+      max-width: none;
+    }
+
+    .about-sledge h4{
+       text-align: justify;
+       font-size: 1.2rem;
+       font-weight: 700;
+    }
+
+    .products img{
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    /*--services--*/
+
+    .services{
+      padding: 70px 0;
+    }
+
+    .services-top{
+      margin-top: 50px;
+    }
+
+    .services i{
+      font-size: 0.8rem;
+    }
+
+    .services h3{
+      font-size: 1rem;
+    }
+
+    .services img{
+      width: 60px;
+    }
+    
+    .break h3{
+      font-size: 1.7rem;
+    }
+    .media{
+      margin-left: 30px;
+    }
+
+    .products{
+      padding: 70px 0;
+    }
+
+    /*--footer--*/
+
+    .footer{
+      padding: 70px 0;
+    }
+    .box{
+      padding-bottom: 20px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .last-footer{
+      text-align: center;
+    }
+
+    .footer .box{
+      text-align: center;
+      margin-left: 80px;
+    }
+    .social .right{
+      margin-right: 80px;
+    }
+    .social i{
+      font-size: 3rem;
+      color: #ff6600;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
